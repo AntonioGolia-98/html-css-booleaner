@@ -6,3 +6,11 @@
 .description{
     font-size: 12px;
 }
+
+table{
+    display: block;
+}
+
+tr:nth-child(odd){
+    background-color: aqua;
+}
