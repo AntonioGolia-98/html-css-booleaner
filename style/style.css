@@ -1,22 +1,11 @@
 main{
-    text-align: left;
-}
-
-.image{
-    z-index: 1;
-    background-color: blue;
-    background-image: url("./img/pattern.png");
-}
-
-.image2{
-    z-index: 2;
+    margin: 50px;
 }
 
 .second-title{
     color: gray;
     font-size: 12px;
 }
-
 .description{
     font-size: 12px;
 }
@@ -24,6 +13,7 @@ main{
 table{
     display: block;
     border-collapse: collapse;
+    
 }
 
 thead{
@@ -34,4 +24,19 @@ tbody{
     tr:nth-child(odd){
         background-color: aqua;
     }
+}
+
+.image{
+    position: relative;
+    display: inline-block;
+    display: block;
+    max-width: 100%;
+}
+.image-text{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    font-size: 1em;
+    z-index: 1;
+    color: white;
 }
