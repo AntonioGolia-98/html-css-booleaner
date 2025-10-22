@@ -1,3 +1,17 @@
+main{
+    text-align: left;
+}
+
+.image{
+    z-index: 1;
+    background-color: blue;
+    background-image: url("./img/pattern.png");
+}
+
+.image2{
+    z-index: 2;
+}
+
 .second-title{
     color: gray;
     font-size: 12px;
@@ -9,8 +23,15 @@
 
 table{
     display: block;
+    border-collapse: collapse;
 }
 
-tr:nth-child(odd){
-    background-color: aqua;
+thead{
+    background-color: rgb(145, 145, 223);
+}
+tbody{
+
+    tr:nth-child(odd){
+        background-color: aqua;
+    }
 }
