@@ -2,13 +2,12 @@ main{
     margin: 50px;
 }
 
-.image-back{
-    background-color: blue;
-    z-index: 0;
-    background-size: 60%;
-
+.container{
+    background-image: url("../img/pattern.png");
+    background-color: aqua;
+    background-size: 30%;
+    height: 100px;
 }
-
 .logo{
     position:
     top:0%;
